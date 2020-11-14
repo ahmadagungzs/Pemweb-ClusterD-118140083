@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+$mycolour : rgb(49, 177, 55);
+$bgcolour : rgb(86, 211, 190);
+$bgcolour2 : rgb(191, 218, 93);
+$bgcolour3 : rgb(151, 252, 130);
+$number1 : 60px;
+$align1 : center;
+
+.header {
+    text-align: center;
+    background-color: $bgcolour3
+}
+
+.navbar{
+    ul{
+        margin: 0;
+        padding: 5px;
+        overflow: hidden;
+        background-color: $bgcolour;
+        position: sticky;
+    }
+    li {
+        margin-right: $number1;
+        margin-left: $number1;
+        display: inline;
+    }
+    li a {
+        color: white;
+        text-align: $align1;
+        padding: 14px $number1;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    li a:hover {
+        background-color: $bgcolour3;
+        font-weight: bold;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+.card {
+    box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.sidebar {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    padding: 20px;
+    color: rgb(131, 81, 81);
+    background-color: $bgcolour2;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+ }
+
+ .content {
+    float: left;
+    width: 75%;
+    padding-right: 20px;
+    h2{
+        color: rgb(83, 209, 135);
+    }
+ }
+
+ @media screen and (max-width: 1000px) {
+    .content,
+    .sidebar {
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+ .flex {
+    display: flex;
+}

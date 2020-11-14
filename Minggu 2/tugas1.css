@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.header {
+  text-align: center;
+  background-color: #97fc82;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #56d3be;
+  position: sticky;
+}
+.navbar li {
+  margin-right: 60px;
+  margin-left: 60px;
+  display: inline;
+}
+.navbar li a {
+  color: white;
+  text-align: center;
+  padding: 14px 60px;
+  font-family: "Quicksand", sans-serif;
+}
+.navbar li a:hover {
+  background-color: #97fc82;
+  font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.card {
+  box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.sidebar {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  padding: 20px;
+  color: #835151;
+  background-color: #bfda5d;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+
+.content {
+  float: left;
+  width: 75%;
+  padding-right: 20px;
+}
+.content h2 {
+  color: #53d187;
+}
+
+@media screen and (max-width: 1000px) {
+  .content,
+.sidebar {
+    width: 100%;
+    padding: 0;
+  }
+}
+.flex {
+  display: flex;
+}
+
+/*# sourceMappingURL=tugas1.css.map */

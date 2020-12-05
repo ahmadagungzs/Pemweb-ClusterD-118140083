@@ -16,5 +16,6 @@
         <li id="3">Pena | <a onclick="mEdit('3')">Edit</a> | <a onclick="mHapus(3)">Hapus</a></li>
     </ul>
 </body>
+<script src="tugas1.js"></script>
 
 </html>

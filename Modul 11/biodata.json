@@ -1,0 +1,23 @@
+{
+    "biodata": {
+        "nama" : "Ahmad Agung Zefi S.",
+        "saudara" : "3 bersaudara : Saya anak pertama dan ada 2 adik",
+        "orangtua" : "Ayah dan Ibu saya menikah 21 tahun yang lalu",
+        "hobby" : "Hobby saya suka motoin objek estetik gitu. Saya juga senang makan tapi belum gemuk, selain itu saya hobby baca buku cuma sekarang lagi kekurangan buku untuk dibaca",
+        "alamat" : {
+            "#text" : "
+            Saya tinggal di daerah
+            ",
+            "kecamatan" : "Kemiling",
+            "kota" : "Bandar Lampung"
+        },
+        "mediaSosial": {
+            "instagram" : "ahmadagungzs",
+            "linkedin" : "linkedin.com/in/ahmadagungzs"
+        },
+        "editing" : {
+            "foto" : "Biasanya make Adobe Lightroom atau VSCO",
+            "video" : "Sering make VN atau Inshot"
+        }
+    }
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas 1 Modul 10</title>
 </head>
+
 <body>
     <input type="text" name="new" id="new">
     <button onclick="mTambah()">Tambah</button>
@@ -15,5 +16,5 @@
         <li id="3">Pena | <a onclick="mEdit('3')">Edit</a> | <a onclick="mHapus(3)">Hapus</a></li>
     </ul>
 </body>
-<script src="tugas1.js"></script>
+
 </html>
